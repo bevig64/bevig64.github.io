@@ -1,5 +1,4 @@
-alert("this js is running!");
-Bmob.initialize("ffeb409183729c1a7566afde03f7d177", "4e3faee2d71b4ec901bb759a6dea5284");
+﻿Bmob.initialize("ffeb409183729c1a7566afde03f7d177", "4e3faee2d71b4ec901bb759a6dea5284");
 //获取一行数据
 
 var count = Bmob.Object.extend("test");
