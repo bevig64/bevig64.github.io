@@ -1,6 +1,6 @@
 window.onload=listload;
 function listload(){
-  alert(1);
+
   var re=document.getElementById('result');
   var tablelist=document.getElementById('actlist');
   // var ul=document.createElement("ul");
