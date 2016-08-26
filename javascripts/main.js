@@ -2,32 +2,9 @@
 
 
 function showact(){
-   var re=document.getElementById('result');
-   var tablelist=document.getElementById('actlist');
-   var ul=document.createElement("ul");
-   tablelist.appendChild(ul);
-   var list=Bmob.Object.extend("activ");
-   var alllist=new Bmob.Query(list);
-  //  alllist.find({
-  //    success:function(results){
-  //      var text1="共查到"+results.length+"条记录";
-  //      var txt1=document.createTextNode(text1);
-  //      re.appendChild(txt1);
-  //      for(var i=0;i<results.length;i++){
-  //        var object=results[i];
-  //        var li=document.createElement("li");
-  //        var text2="活动名称:"+object.get("a_name")+"<br> 活动介绍:"+object.get("a_introduce")+"<br> 联系方式:"+object.get("a_phonenum")+"<br>";
-  //        var txt2=document.createTextNode(text2);
-  //        li.appendChild(txt2);
-  //        ul.appendChild(li);
-  //      }
-  //  }
-    //  error:function(error){
-    //    alert("未查询到结果！");
-    //  }
-  //  });
-   var frame=document.getElementById('mainframe');
-   frame.setAttribute("src","actlist.html");
+    var frame=document.getElementById('mainframe');
+    frame.setAttribute("src","actlist.html");
+
 }
 
 function showsub(){
